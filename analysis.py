@@ -188,7 +188,7 @@ if __name__ == '__main__':
 	# 2. featurize it. 
 	# 3. save it into numpy arrays. 
 
-	FILENAME = "report-val.json"
+	FILENAME = "report-train.json"
 	NUM_FEATURES = 96 # 42 + 36 + 18 = 96 features (check out featurize for details).
 
 	f = open(FILENAME)
