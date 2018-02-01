@@ -110,7 +110,7 @@ def featurize_delta(map_in, map_out):
 	in_features = featurize_io(map_in)
 	out_features = featurize_io(map_out)
 
-	marker_diffs = [in_features[i] - out_features[i] for i in range(3, 6)]
+	marker_diffs = [in_features[i] - out_features[i] for i in range(4, 7)]
 
 	# find direction hero is facing (in, out)
 	in_facing = np.argmax([np.max(in_rep[i]) for i in range(3)])
